@@ -4,8 +4,8 @@ import { NextResponse } from "next/server";
 export async function GET(){
     try {
         const {name , email}={
-            name:"one",
-            email:"one@test.com"
+            name:"eight",
+            email:"eight@test.com"
         }
         
         const user = await client.user.create({
