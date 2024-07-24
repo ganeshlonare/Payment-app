@@ -1,7 +1,9 @@
+"use client"
+
 export default function Home() {
   return (
-   <div className="text-2xl h-screen bg-black text-white">
-    Hi welcome to our website
-   </div>
+    <div className="flex flex-col items-center justify-center min-h-screen py-2 bg-black text-white">
+      <h1 className="text-3xl font-bold">NextAuth.js</h1>
+    </div>
   );
 }
